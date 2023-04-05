@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-1873e7ca13e-c7b11e04b2e0fe": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "users",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "users",
+				"url": "jdbc:postgresql://database-1.cq4ijmgk5u83.eu-west-2.rds.amazonaws.com:5432/users",
+				"configurationType": "URL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
